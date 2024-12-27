@@ -9,18 +9,15 @@
       Title="ParticipantsRegistrationPage">
 
     <Grid>
-        <StackPanel Name="Container" Orientation="Vertical" HorizontalAlignment="Center" VerticalAlignment="Center">
-            <TextBlock>Имя пользователя</TextBlock>
-            <TextBox Name="LoginTBx" Width="200" Height="30"></TextBox>
-            <TextBlock>Пароль</TextBlock>
-            <PasswordBox Name="PasswordTBx" Width="200" Height="30"></PasswordBox>
-            <TextBlock>Повторите пароль</TextBlock>
-            <PasswordBox Name="RePasswordTBx" Width="200" Height="30"></PasswordBox>
-            <StackPanel Orientation="Horizontal" Margin="0 10 0 0">
-                <Button Name="RegistrationBtn" Width="120" Click="RegistrationBtn_Click">Зарегистрироваться</Button>
-                <Button Name="LoginBtn" Width="80" Click="LoginBtn_Click">Войти</Button>
-            </StackPanel>
-            <TextBlock Name="ErrorTBk"></TextBlock>
+        <StackPanel Margin="10">
+            <TextBlock HorizontalAlignment="Center" FontSize="20">Регистрация участников</TextBlock>
+            <TextBlock Text="Выберите турнир:"/>
+            <ComboBox x:Name="TournamentComboBox" Width="200"/>
+            <TextBlock Text="Состав команды:"/>
+            <TextBox Width="200"/>
+            <TextBlock Text="Предпочитаемые роли:"/>
+            <TextBox Width="200"/>
+            <Button Content="Отправить заявку" Margin="5"/>
         </StackPanel>
     </Grid>
 </Page>

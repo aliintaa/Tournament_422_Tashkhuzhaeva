@@ -7,10 +7,22 @@
     </ApplicationDefinition>
   </ItemGroup>
   <ItemGroup>
+    <Compile Update="CreateTourmentPage.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="LoginPage.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="ManageParticipantPage.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="MarhchSchedulePage.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="MatchResiltPage.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="ModeratPage.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
     <Compile Update="ParticipantsRegistrationPage.xaml.cs">
@@ -19,27 +31,33 @@
     <Compile Update="ParticipantsZonePage.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Update="TournamentTablePage.xaml.cs">
-      <SubType>Code</SubType>
-    </Compile>
   </ItemGroup>
   <ItemGroup>
+    <Page Update="CreateTourmentPage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
     <Page Update="LoginPage.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="MainWindow.xaml">
       <SubType>Designer</SubType>
     </Page>
+    <Page Update="ManageParticipantPage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
     <Page Update="MarhchSchedulePage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="MatchResiltPage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="ModeratPage.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="ParticipantsRegistrationPage.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="ParticipantsZonePage.xaml">
-      <SubType>Designer</SubType>
-    </Page>
-    <Page Update="TournamentTablePage.xaml">
       <SubType>Designer</SubType>
     </Page>
   </ItemGroup>

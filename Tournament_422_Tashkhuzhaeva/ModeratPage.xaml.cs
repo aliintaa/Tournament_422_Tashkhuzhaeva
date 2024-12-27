@@ -16,11 +16,11 @@ using System.Windows.Shapes;
 namespace Tournament_422_Tashkhuzhaeva
 {
     /// <summary>
-    /// Логика взаимодействия для TournamentTablePage.xaml
+    /// Логика взаимодействия для ModeratPage.xaml
     /// </summary>
-    public partial class TournamentTablePage : Page
+    public partial class ModeratPage : Page
     {
-        public TournamentTablePage()
+        public ModeratPage()
         {
             InitializeComponent();
         }

@@ -9,14 +9,17 @@
       Title="MarhchSchedulePage">
 
     <Grid>
-        <Grid.RowDefinitions>
-            <RowDefinition Height="7*"/>
-            <RowDefinition Height="68*"/>
-        </Grid.RowDefinitions>
-        <StackPanel HorizontalAlignment="Center" Orientation="Horizontal" Grid.Row="0">
-            <TextBlock HorizontalAlignment="Center" FontSize="20">Зона участников</TextBlock>
-        </StackPanel>
         <StackPanel>
+            <TextBlock Text="Расписание матчей" FontSize="24" Margin="10"/>
+            <ListView Name="MatchScheduleListView" Margin="10">
+                <ListView.View>
+                    <GridView>
+                        <GridViewColumn Header="Дата и время" Width="150"/>
+                        <GridViewColumn Header="Команды" Width="200"/>
+                        <GridViewColumn Header="Статус" Width="100"/>
+                    </GridView>
+                </ListView.View>
+            </ListView>
         </StackPanel>
     </Grid>
 </Page>

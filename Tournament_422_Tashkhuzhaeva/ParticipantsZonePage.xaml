@@ -9,36 +9,34 @@
       Title="ParticipantsZonePage">
 
     <Grid>
-        <Grid.RowDefinitions>
-            <RowDefinition Height="7*"/>
-            <RowDefinition Height="68*"/>
-        </Grid.RowDefinitions>
-        <StackPanel HorizontalAlignment="Center" Orientation="Horizontal" Grid.Row="0">
-            <TextBlock HorizontalAlignment="Center" FontSize="20">Зона участников</TextBlock>
-        </StackPanel>
-        <StackPanel Orientation="Vertical" Grid.Row="1">
-            <StackPanel HorizontalAlignment="Center" Width="200">
-                <TextBlock HorizontalAlignment="Center">Личная информация</TextBlock>
-                <TextBlock Height="20" Width="150" FontSize="15">Id</TextBlock>
-                <TextBox Height="20" Width="150"></TextBox>
-                <TextBlock Height="20" Width="150" FontSize="15">Никнейм</TextBlock>
-                <TextBox Height="20" Width="150"></TextBox>
-                <TextBlock Height="20" Width="150" FontSize="15">Контакные данные</TextBlock>
-                <TextBox Height="20" Width="150"></TextBox>
-                <TextBlock Height="20" Width="150" FontSize="15">Игровая статистика</TextBlock>
-                    <TextBlock Height="20" Width="150" FontSize="10">Количество сыгранных матчей</TextBlock>
-                    <TextBox Height="20" Width="150"></TextBox>
-                    <TextBlock Height="20" Width="150" FontSize="10">Количество побед</TextBlock>
-                    <TextBox Height="20" Width="150"></TextBox>
-                    <TextBlock Height="20" Width="150" FontSize="10">Количество поражений</TextBlock>
-                    <TextBox Height="20" Width="150"></TextBox>
-                    <TextBlock Height="20" Width="150" FontSize="10">Место в турнире</TextBlock>
-                    <TextBox Height="20" Width="150"></TextBox>
-                    <TextBlock Height="20" Width="150" FontSize="10">Индивидуальные достижения</TextBlock>
-                    <TextBox Height="20" Width="150"></TextBox>
-                    <TextBlock Height="20" Width="150" FontSize="10">Роль в команде</TextBlock>
-                    <TextBox Height="20" Width="150"></TextBox>
-                </StackPanel>
+        <StackPanel>
+            <TextBlock Text="Личная информация" FontSize="24" Margin="10"/>
+
+            <StackPanel Orientation="Vertical" Margin="10">
+                <TextBlock Text="ID игрока/команды:"/>
+                <TextBox Width="200"/>
+
+                <TextBlock Text="Никнейм/Название команды:"/>
+                <TextBox Width="200"/>
+
+                <TextBlock Text="Контактные данные:"/>
+                <TextBox Width="200"/>
+
+                <Button Content="Сохранить" Width="100"/>
+            </StackPanel>
+
+            <TextBlock Text="Статистика:" FontSize="24" Margin="10"/>
+            <ListView x:Name="StatisticsListView" Margin="10">
+                <ListView.View>
+                    <GridView>
+                        <GridViewColumn Header="Матчи сыграны" Width="100"/>
+                        <GridViewColumn Header="Победы" Width="100"/>
+                        <GridViewColumn Header="Поражения" Width="100"/>
+                        <GridViewColumn Header="Место в турнире" Width="100"/>
+                        <GridViewColumn Header="Лучший игрок матча" Width="150"/>
+                    </GridView>
+                </ListView.View>
+            </ListView>
         </StackPanel>
     </Grid>
 </Page>

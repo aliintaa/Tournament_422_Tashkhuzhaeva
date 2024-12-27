@@ -15,8 +15,8 @@
             <TextBlock>Пароль</TextBlock>
             <PasswordBox Name="PasswordTBx" Width="200" Height="30"></PasswordBox>
             <StackPanel Orientation="Horizontal" Margin="0 10 0 0">
-                <Button Name="LoginBtn" Width="80" Click="LoginBtn_Click">Войти</Button>
-                <Button Name="RegistrationBtn" Width="120" Click="RegistrationBtn_Click">Создать аккаунт</Button>
+                <Button Name="LoginBtn" Width="80" >Войти</Button>
+                <Button Name="RegistrationBtn" Width="120">Создать аккаунт</Button>
             </StackPanel>
             <TextBlock Name="ErrorTBk"></TextBlock>
         </StackPanel>

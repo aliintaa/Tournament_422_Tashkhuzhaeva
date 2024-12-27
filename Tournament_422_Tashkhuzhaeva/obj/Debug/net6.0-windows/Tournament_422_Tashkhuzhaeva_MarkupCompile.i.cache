@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET6_0;NETCOREAPP
 C:\Users\222124\source\repos\Tournament_422_Tashkhuzhaeva\Tournament_422_Tashkhuzhaeva\App.xaml
-6-604200171
+91763386083
 
-10-1045205982
+13147830001
 194183970531
-LoginPage.xaml;MainWindow.xaml;MarhchSchedulePage.xaml;ParticipantsRegistrationPage.xaml;ParticipantsZonePage.xaml;TournamentTablePage.xaml;
+CreateTourmentPage.xaml;LoginPage.xaml;MainWindow.xaml;ManageParticipantPage.xaml;MarhchSchedulePage.xaml;MatchResiltPage.xaml;ModeratPage.xaml;ParticipantsRegistrationPage.xaml;ParticipantsZonePage.xaml;
 
 True
 

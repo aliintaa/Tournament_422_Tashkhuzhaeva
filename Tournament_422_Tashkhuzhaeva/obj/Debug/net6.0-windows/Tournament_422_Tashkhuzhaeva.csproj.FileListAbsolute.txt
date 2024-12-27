@@ -7,7 +7,6 @@ C:\Users\222124\source\repos\Tournament_422_Tashkhuzhaeva\Tournament_422_Tashkhu
 C:\Users\222124\source\repos\Tournament_422_Tashkhuzhaeva\Tournament_422_Tashkhuzhaeva\obj\Debug\net6.0-windows\MarhchSchedulePage.g.cs
 C:\Users\222124\source\repos\Tournament_422_Tashkhuzhaeva\Tournament_422_Tashkhuzhaeva\obj\Debug\net6.0-windows\ParticipantsRegistrationPage.g.cs
 C:\Users\222124\source\repos\Tournament_422_Tashkhuzhaeva\Tournament_422_Tashkhuzhaeva\obj\Debug\net6.0-windows\ParticipantsZonePage.g.cs
-C:\Users\222124\source\repos\Tournament_422_Tashkhuzhaeva\Tournament_422_Tashkhuzhaeva\obj\Debug\net6.0-windows\TournamentTablePage.g.cs
 C:\Users\222124\source\repos\Tournament_422_Tashkhuzhaeva\Tournament_422_Tashkhuzhaeva\obj\Debug\net6.0-windows\App.g.cs
 C:\Users\222124\source\repos\Tournament_422_Tashkhuzhaeva\Tournament_422_Tashkhuzhaeva\obj\Debug\net6.0-windows\Tournament_422_Tashkhuzhaeva_MarkupCompile.cache
 C:\Users\222124\source\repos\Tournament_422_Tashkhuzhaeva\Tournament_422_Tashkhuzhaeva\obj\Debug\net6.0-windows\Tournament_422_Tashkhuzhaeva_MarkupCompile.lref
@@ -15,7 +14,6 @@ C:\Users\222124\source\repos\Tournament_422_Tashkhuzhaeva\Tournament_422_Tashkhu
 C:\Users\222124\source\repos\Tournament_422_Tashkhuzhaeva\Tournament_422_Tashkhuzhaeva\obj\Debug\net6.0-windows\MarhchSchedulePage.baml
 C:\Users\222124\source\repos\Tournament_422_Tashkhuzhaeva\Tournament_422_Tashkhuzhaeva\obj\Debug\net6.0-windows\ParticipantsRegistrationPage.baml
 C:\Users\222124\source\repos\Tournament_422_Tashkhuzhaeva\Tournament_422_Tashkhuzhaeva\obj\Debug\net6.0-windows\ParticipantsZonePage.baml
-C:\Users\222124\source\repos\Tournament_422_Tashkhuzhaeva\Tournament_422_Tashkhuzhaeva\obj\Debug\net6.0-windows\TournamentTablePage.baml
 C:\Users\222124\source\repos\Tournament_422_Tashkhuzhaeva\Tournament_422_Tashkhuzhaeva\obj\Debug\net6.0-windows\Tournament_422_Tashkhuzhaeva.g.resources
 C:\Users\222124\source\repos\Tournament_422_Tashkhuzhaeva\Tournament_422_Tashkhuzhaeva\obj\Debug\net6.0-windows\Tournament_422_Tashkhuzhaeva.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\222124\source\repos\Tournament_422_Tashkhuzhaeva\Tournament_422_Tashkhuzhaeva\obj\Debug\net6.0-windows\Tournament_422_Tashkhuzhaeva.AssemblyInfoInputs.cache
@@ -26,3 +24,5 @@ C:\Users\222124\source\repos\Tournament_422_Tashkhuzhaeva\Tournament_422_Tashkhu
 C:\Users\222124\source\repos\Tournament_422_Tashkhuzhaeva\Tournament_422_Tashkhuzhaeva\obj\Debug\net6.0-windows\Tournament_422_Tashkhuzhaeva.pdb
 C:\Users\222124\source\repos\Tournament_422_Tashkhuzhaeva\Tournament_422_Tashkhuzhaeva\obj\Debug\net6.0-windows\Tournament_422_Tashkhuzhaeva.genruntimeconfig.cache
 C:\Users\222124\source\repos\Tournament_422_Tashkhuzhaeva\Tournament_422_Tashkhuzhaeva\obj\Debug\net6.0-windows\ref\Tournament_422_Tashkhuzhaeva.dll
+C:\Users\222124\source\repos\Tournament_422_Tashkhuzhaeva\Tournament_422_Tashkhuzhaeva\obj\Debug\net6.0-windows\LoginPage.g.cs
+C:\Users\222124\source\repos\Tournament_422_Tashkhuzhaeva\Tournament_422_Tashkhuzhaeva\obj\Debug\net6.0-windows\LoginPage.baml
