@@ -16,21 +16,13 @@ using System.Windows.Shapes;
 namespace Tournament_422_Tashkhuzhaeva
 {
     /// <summary>
-    /// Interaction logic for MainWindow.xaml
+    /// Логика взаимодействия для LoginPage.xaml
     /// </summary>
-    public partial class MainWindow : Window
+    public partial class LoginPage : Page
     {
-        public MainWindow()
+        public LoginPage()
         {
             InitializeComponent();
-            MyFrame.Navigate(new LoginPage());
-        
         }
-
-        private void BackBtn_Click(object sender, RoutedEventArgs e)
-        {
-            if(MyFrame.CanGoBack) { MyFrame.GoBack(); }
-        }
-
     }
 }

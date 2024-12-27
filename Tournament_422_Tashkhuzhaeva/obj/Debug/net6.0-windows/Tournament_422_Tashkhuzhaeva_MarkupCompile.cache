@@ -1,5 +1,5 @@
 ﻿Tournament_422_Tashkhuzhaeva
-1.0.0.0
+
 
 winexe
 C#
@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET6_0;NETCOREAPP
 C:\Users\222124\source\repos\Tournament_422_Tashkhuzhaeva\Tournament_422_Tashkhuzhaeva\App.xaml
-6-604200171
+5-1703026456
 
-10-1045205982
+71764847789
 194183970531
-LoginPage.xaml;MainWindow.xaml;MarhchSchedulePage.xaml;ParticipantsRegistrationPage.xaml;ParticipantsZonePage.xaml;TournamentTablePage.xaml;
+MainWindow.xaml;MarhchSchedulePage.xaml;ParticipantsRegistrationPage.xaml;ParticipantsZonePage.xaml;TournamentTablePage.xaml;
 
-True
+False
 
